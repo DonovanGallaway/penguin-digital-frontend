@@ -1,0 +1,28 @@
+$maincolor: white;
+$contrastcolor: black;
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: $contrastcolor;
+    color: $maincolor;
+  }
+
+nav a {
+    color: white;
+}
+  
+  nav *{
+    margin: 5px 20px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: $contrastcolor;
+    color: $maincolor;
+  }
+
+  ul {
+      list-style-type: none;
+  }
